@@ -1,0 +1,30 @@
+{
+  "headings": {
+    "tokens": "Design Tokens",
+    "components": "Components",
+    "atoms": "Atoms",
+    "molecules": "Molecules",
+    "organisms": "Organisms",
+    "templates": "Templates",
+    "pages": "Pages",
+    "typography": "Typography",
+    "grid": "Grid System",
+    "colours": "Colours",
+    "icon": "Icon",
+    "measurements": "Measurements"
+  },
+  "baseComponentArgTypes": {
+    "className": {
+      "description": "CSS class names to be applied to the component's wrapper element"
+    },
+    "id": {
+      "description": "ID attribute to be applied to the component's wrapper element"
+    },
+    "style": {
+      "description": "Inline CSS styles to be applied to the component's wrapper element"
+    },
+    "data-testid": {
+      "description": "`data-testid` attribute to be applied to the component's wrapper element"
+    }
+  }
+}
