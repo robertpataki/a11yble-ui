@@ -1,12 +1,14 @@
-import { TabbedInterface } from '@organisms/index';
+import { TabbedSections } from '@organisms/TabbedSections';
+import {
+  MOCK_DATA_GHIBLI as GhiblyMovieData,
+  MOCK_DATA_TOSCA as ToscaAlbumData,
+} from '@organisms/TabbedSections/TabbedSections.mock';
 
 function App() {
   return (
     <main id='main'>
-      <TabbedInterface
-        id='tabbed-interface'
-        style={{ backgroundColor: 'rgba(255, 0, 0, 0.1)' }}
-      />
+      <TabbedSections {...GhiblyMovieData} />
+      <TabbedSections {...ToscaAlbumData} />
     </main>
   );
 }
